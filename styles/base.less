@@ -1,0 +1,235 @@
+@import "syntax-variables";
+
+atom-text-editor, :host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+}
+
+atom-text-editor .gutter, :host .gutter {
+  background-color: @syntax-gutter-background-color;
+  color: @syntax-gutter-text-color;
+}
+
+atom-text-editor .gutter .line-number.cursor-line, :host .gutter .line-number.cursor-line {
+  background-color: @syntax-gutter-background-color-selected;
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .gutter .line-number.cursor-line-no-selection, :host .gutter .line-number.cursor-line-no-selection {
+  color: @syntax-gutter-text-color-selected;
+}
+
+atom-text-editor .wrap-guide, :host .wrap-guide {
+  color: @syntax-wrap-guide-color;
+}
+
+atom-text-editor .indent-guide, :host .indent-guide {
+  color: @syntax-indent-guide-color;
+}
+
+atom-text-editor .invisible-character, :host .invisible-character {
+  color: @syntax-invisible-character-color;
+}
+
+atom-text-editor .search-results .marker .region, :host .search-results .marker .region {
+  background-color: transparent;
+  border: @syntax-result-marker-color;
+}
+
+atom-text-editor .search-results .marker.current-result .region, :host .search-results .marker.current-result .region {
+  border: @syntax-result-marker-color-selected;
+}
+
+atom-text-editor.is-focused .cursor, :host(.is-focused) .cursor {
+  border-color: @syntax-cursor-color;
+}
+
+atom-text-editor.is-focused .selection .region, :host(.is-focused) .selection .region {
+  background-color: @syntax-selection-color;
+}
+
+atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-editor.is-focused .line.cursor-line, :host(.is-focused) .line-number.cursor-line-no-selection, :host(.is-focused) .line.cursor-line {
+  background-color: #070C86;
+}
+
+.text {
+  color: #FFFFFF;
+}
+
+.source.ruby.rails.embedded.html {
+}
+
+.text.html.ruby {
+  color: #FFFFFF;
+}
+
+.constant.numeric.ruby {
+  color: #CCFF33;
+}
+
+.source.ruby {
+  color: #FFFFFF;
+}
+
+.source {
+  color: #FFFFFF;
+}
+
+.comment {
+  color: #363636;
+}
+
+.constant {
+  color: #64AEF9;
+}
+
+.keyword {
+  color: #FF7827;
+}
+
+.keyword.preprocessor {
+  color: #EDF8F9;
+}
+
+.keyword.preprocessor .directive {
+  color: #FFFFFF;
+}
+
+.entity.name.function, .storage.type.function.js {
+  color: #F8CC49;
+}
+
+.variable.parameter {
+}
+
+.source .comment.block {
+  font-style: italic;
+  color: #363636;
+}
+
+.variable.other, .variable.js, .punctuation.separator.variable {
+  color: #042CF7;
+}
+
+.support.function.activerecord.rails {
+  color: #999966;
+}
+
+.string {
+  color: #FEFF8E;
+}
+
+.string .constant.character.escape {
+  color: #AAAAAA;
+}
+
+.string.interpolated {
+  color: #DDE93D;
+  background-color: #61601D;
+}
+
+.string.regexp {
+  color: #44B4CC;
+}
+
+.string.literal {
+  color: #CCFF33;
+}
+
+.string.interpolated .constant.character.escape {
+  color: #555555;
+}
+
+.entity.name.class, .support.class.js {
+}
+
+.entity.other.inherited-class {
+}
+
+.entity.name.tag {
+}
+
+.meta.tag.inline.any.html, .meta.tag.block.any.html {
+  color: #FF873A;
+}
+
+.entity.other.attribute-name {
+  color: #FF873A;
+}
+
+.keyword.other {
+  color: #FF7827;
+}
+
+.meta.selector.css, .entity.other.attribute-name.pseudo-class.css, .entity.name.tag.wildcard.css, .entity.other.attribute-name.id.css, .entity.other.attribute-name.class.css {
+  color: #FCE85F;
+}
+
+.support.type.property-name.css {
+  color: #9CD2F8;
+}
+
+.keyword.other.unit.css, .constant.other.rgb-value.css, .constant.numeric.css {
+  color: #F2F2F2;
+}
+
+.support.function.event-handler.js {
+  color: #FFFFFF;
+}
+
+.keyword.operator.js {
+  color: #FF6600;
+}
+
+.keyword.control.js {
+  color: #FFCC00;
+}
+
+.support.class.prototype.js {
+  color: #FFFFFF;
+}
+
+.object.property.function.prototype.js {
+  color: #4CB786;
+}
+
+.constant.character.escaped, .constant.character.escape, .string .source, .string .source.ruby {
+  color: #B2D9D0;
+}
+
+.support.function {
+  color: #E94526;
+}
+
+.storage {
+  color: #EE8329;
+}
+
+.variable.other.readwrite.global.pre-defined, .variable.language {
+  color: #44BCF9;
+}
+
+.variable.other.constant {
+}
+
+.support.variable {
+  color: #F5B92D;
+}
+
+.variable.other.readwrite.global {
+  color: #D0D0FF;
+}
+
+.variable.other, .variable.js, .punctuation.separator.variable {
+  color: #FFFFFF;
+}
+
+.variable.other.readwrite.class {
+}
+
+.variable.other.readwrite.instance {
+  color: #1AA6FC;
+}
+
+.variable.other.php, .variable.other.normal {
+}
