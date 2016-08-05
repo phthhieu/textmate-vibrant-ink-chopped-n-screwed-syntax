@@ -1,5 +1,5 @@
 {
-  "name": "textmate-active4d-syntax",
+  "name": "textmate-vibrant-ink-chopped-screwed-syntax",
   "theme": "syntax",
   "version": "0.0.0",
   "description": "Textmate vibrant-ink-chopped'n'screwed theme for Atom",
@@ -9,7 +9,7 @@
     "textmate",
     "vibrant-ink-chopped'n'screwed"
   ],
-  "repository": "https://github.com/phthhieu/textmate-vibrant-ink-chopped'n'screwed-syntax",
+  "repository": "https://github.com/phthhieu/textmate-vibrant-ink-chopped-n-screwed-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
